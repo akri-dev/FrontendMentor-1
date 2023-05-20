@@ -1,3 +1,11 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styling */
 @import url(https://fonts.google.com/css?family=Outfit:300,400,600&display=swap);
 
 :root{
