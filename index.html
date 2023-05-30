@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | NFT preview card component</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="card">
-    <!--Photo Transition-->
-    <div class="photo-container">
-      <a href="#">
-        <img src="images/image-equilibrium.jpg" alt="Cube balancing one edge.">
-        <div class="overlay">
-          <img src="images/icon-view.svg" alt="Eye icon">
-        </div>
-    </a>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="card">
+      <!--Photo Transition-->
+      <section class="photo-container">
+          <a href="#">
+            <img src="images/image-equilibrium.jpg" alt="Cube balancing one edge.">
+            <div class="overlay"></div>
+          </a>
+      </section>
+        <!-- End of Photo Transition-->
+      <section class="content-text">
+          <h1><a href="#">Equilibrium #3429</a></h1>
+          <p>Our Equilibrium collection promotes balance and calm.</p>
+      </section>
+      <section class="counter">
+          <p id="ethereum"><img  src="images/icon-ethereum.svg" alt="Ethereum Logo"> 0.041 ETH</p>
+          <p><img src="images/icon-clock.svg" alt="Clock Logo">3 days left</p>
+      </section>
+      <footer class="footer">
+          <img id="avatar-icon" src="images/image-avatar.png" alt="Avator Icon"><p>Creation of&nbsp;<span><a href="#">Jules Wyvern</a></span></p>
+      </footer>
+    </main>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U" target="_blank" rel="noopener">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/alecjoseph-dev">Alec Joseph Burio</a>.
     </div>
-    <!-- End of Photo Transition-->
-    <div class="content-text">
-      <a href="#"><h1>Equilibrium #3429</h1></a>
-      <p>Our Equilibrium collection promotes balance and calm.</p>
-    </div>
-    <div class="counter">
-      <p id="ethereum"><img  src="images/icon-ethereum.svg" alt="Ethereum Logo"> 0.041 ETH</p>
-      <p><img src="images/icon-clock.svg" alt="Clock Logo">3 days left</p>
-    </div>
-    <div class="footer">
-      <p><img id="avatar-icon" src="images/image-avatar.png" alt="Avator Icon">Creation of&nbsp;<span><a href="#">Jules Wyvern</a></span></p>
-    </div>
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.frontendmentor.io/profile/alecjoseph-dev">Alec Joseph Burio</a>.
-  </div>
-</body>
+  </body>
 </html>
